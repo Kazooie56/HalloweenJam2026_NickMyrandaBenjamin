@@ -7,15 +7,12 @@ public class ServiceHub : MonoBehaviour
 
     [SerializeField] private UIManager uiManager;
     [SerializeField] private DialogueManager dialogueManager;
-
     [SerializeField] private GameObject player;
 
 
     public UIManager UIManager => uiManager;
     public DialogueManager DialogueManager => dialogueManager;
-
-
-
+    public GameObject Player => player;
 
     void Awake()
     {

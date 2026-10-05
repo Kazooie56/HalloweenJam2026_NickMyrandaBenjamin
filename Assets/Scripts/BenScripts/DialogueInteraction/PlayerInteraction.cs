@@ -4,6 +4,9 @@ using UnityEngine.InputSystem;
 
 public class PlayerInteraction : MonoBehaviour
 {
+    [Header("Input Action Reference")]
+    [SerializeField] private InputActionReference interactAction;
+
     private IInteractable target;
     [SerializeField] private GameObject targetInteractable;
 
@@ -29,21 +32,21 @@ public class PlayerInteraction : MonoBehaviour
     {
         if (other.TryGetComponent(out IInteractable foundInteractable))
         {
-            target = foundInteractable;
-            targetInteractable = other.gameObject;
+            target = null;
+            targetInteractable = null;
 
             // hide maybe prompt
         }
     }
 
-    public void OnInteract(InputAction.CallbackContext context)
+    private void Update()
     {
-        if (context.performed)
+        if (interactAction.action.WasPressedThisFrame())
         {
             if (target != null)
             {
                 //hide maybe prompt 
-                
+
                 target.Interact();
             }
         }

@@ -28,4 +28,9 @@ public class UIManager : MonoBehaviour
     {
         dialogueText.text = dialogueString;
     }
+
+    public void SetNameText(string nameString)
+    {
+        nameText.text = nameString;
+    }
 }
