@@ -7,8 +7,9 @@ public class PlayerInteraction : MonoBehaviour
     [Header("Input Action Reference")]
     [SerializeField] private InputActionReference interactAction;
 
-    private IInteractable target;
+    [Header("Target ID")]
     [SerializeField] private GameObject targetInteractable;
+    private IInteractable target;
 
     private UIManager uiManager;
 

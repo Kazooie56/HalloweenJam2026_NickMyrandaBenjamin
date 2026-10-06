@@ -1620,6 +1620,18 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3962917540685014439, guid: 67f4be0f82d90174ab4945173ce8636a, type: 3}
+      propertyPath: characterName
+      value: chill guy
+      objectReference: {fileID: 0}
+    - target: {fileID: 3962917540685014439, guid: 67f4be0f82d90174ab4945173ce8636a, type: 3}
+      propertyPath: 'sentences.Array.data[0]'
+      value: mannnn
+      objectReference: {fileID: 0}
+    - target: {fileID: 3962917540685014439, guid: 67f4be0f82d90174ab4945173ce8636a, type: 3}
+      propertyPath: 'sentences.Array.data[1]'
+      value: cool
+      objectReference: {fileID: 0}
     - target: {fileID: 6797935933868100887, guid: 67f4be0f82d90174ab4945173ce8636a, type: 3}
       propertyPath: m_Name
       value: NPC (1)
