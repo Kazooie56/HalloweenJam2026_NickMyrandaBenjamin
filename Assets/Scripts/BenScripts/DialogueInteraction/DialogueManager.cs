@@ -27,7 +27,7 @@ public class DialogueManager : MonoBehaviour
         uiManager.ShowDialoguePanel();
 
         inDialogue = true;
-        playerMovement.enabled = false;
+        playerMovement.canMove = false;
 
         uiManager.SetNameText(name);
 
@@ -61,6 +61,6 @@ public class DialogueManager : MonoBehaviour
 
         uiManager.HideDialoguePanel();
 
-        playerMovement.enabled = true;
+        playerMovement.canMove = true;
     }
 }
