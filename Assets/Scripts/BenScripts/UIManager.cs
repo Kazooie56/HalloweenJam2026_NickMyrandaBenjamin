@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class UIManager : MonoBehaviour
 {
-    //Dialogue
+    // Dialogue
     [SerializeField] private GameObject dialoguePanel;
     [SerializeField] private TMP_Text dialogueText;
     [SerializeField] private TMP_Text nameText;
@@ -13,7 +13,7 @@ public class UIManager : MonoBehaviour
         HideDialoguePanel();
     }
 
-    //Dialogue
+    // Dialogue
     public void ShowDialoguePanel()
     {
         dialoguePanel.SetActive(true);

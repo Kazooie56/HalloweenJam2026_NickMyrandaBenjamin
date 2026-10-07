@@ -43,8 +43,18 @@ public class PlayerShooting : MonoBehaviour
         // the y is 0f because it moves straight
         Vector2 direction = new Vector2(movement.facingDirection, 0f);
 
+        Quaternion rotation;
+        if (movement.facingDirection > 0f) // if you're looking right
+        {
+            rotation = Quaternion.identity; // the rotation will be to the right
+        }
+        else
+        {
+            rotation = Quaternion.Euler(0f, 180f, 0f); // pie is rotated 180 degrees
+        }
+
         // This just makes the pie, and uses pie's Launch method for the movement.
-        PieProjectile pie = Instantiate(piePrefab, transform.position, Quaternion.identity);
+        PieProjectile pie = Instantiate(piePrefab, transform.position, rotation);
         pie.Launch(direction);
     }
 }

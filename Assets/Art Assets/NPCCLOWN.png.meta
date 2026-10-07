@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: e390695f2a605604386ef9ded28c231e
+guid: 153e5ae00e1b05444b9df67de3a4b748
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1302723820812287101
-    second: Untitled_Artwork_0
+      213: 2306489918562581486
+    second: NPCCLOWN_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Untitled_Artwork_0
+      name: NPCCLOWN_0
       rect:
         serializedVersion: 2
-        x: 61
-        y: 57
-        width: 1549
-        height: 2260
+        x: 79
+        y: 61
+        width: 1508
+        height: 2141
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d7cb4f3b964341210800000000000000
-      internalID: 1302723820812287101
+      spriteID: eeb31f15c5c420020800000000000000
+      internalID: 2306489918562581486
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Untitled_Artwork_0: 1302723820812287101
+      NPCCLOWN_0: 2306489918562581486
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

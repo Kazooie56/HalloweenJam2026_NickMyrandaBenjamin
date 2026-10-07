@@ -1,0 +1,1612 @@
+fileFormatVersion: 2
+guid: 6d4b725939f4552448443ecf4756885c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6995275508772607195
+    second: CLOWNBALLOON-UI-JAM2_0
+  - first:
+      213: 7780172527014432316
+    second: CLOWNBALLOON-UI-JAM2_1
+  - first:
+      213: 5636894017707606424
+    second: CLOWNBALLOON-UI-JAM2_2
+  - first:
+      213: 3985314952776242662
+    second: CLOWNBALLOON-UI-JAM2_3
+  - first:
+      213: 4862821861468643726
+    second: CLOWNBALLOON-UI-JAM2_4
+  - first:
+      213: 1448127028697503153
+    second: CLOWNBALLOON-UI-JAM2_5
+  - first:
+      213: -8506389052782486639
+    second: CLOWNBALLOON-UI-JAM2_6
+  - first:
+      213: 7198819495799518634
+    second: CLOWNBALLOON-UI-JAM2_7
+  - first:
+      213: -1879873882083008920
+    second: CLOWNBALLOON-UI-JAM2_8
+  - first:
+      213: 9030563643927067187
+    second: CLOWNBALLOON-UI-JAM2_9
+  - first:
+      213: -7333542445901961669
+    second: CLOWNBALLOON-UI-JAM2_10
+  - first:
+      213: 120218787336575435
+    second: CLOWNBALLOON-UI-JAM2_11
+  - first:
+      213: 694027451923912766
+    second: CLOWNBALLOON-UI-JAM2_12
+  - first:
+      213: -1447327356488350098
+    second: CLOWNBALLOON-UI-JAM2_13
+  - first:
+      213: 5810556387824895090
+    second: CLOWNBALLOON-UI-JAM2_14
+  - first:
+      213: -7648177056211947247
+    second: CLOWNBALLOON-UI-JAM2_15
+  - first:
+      213: -4188372041776035599
+    second: CLOWNBALLOON-UI-JAM2_16
+  - first:
+      213: -3725443844850075119
+    second: CLOWNBALLOON-UI-JAM2_17
+  - first:
+      213: -2047076502968660436
+    second: CLOWNBALLOON-UI-JAM2_18
+  - first:
+      213: -4289968255885295472
+    second: CLOWNBALLOON-UI-JAM2_19
+  - first:
+      213: -660707157044181577
+    second: CLOWNBALLOON-UI-JAM2_20
+  - first:
+      213: -8177282441067997349
+    second: CLOWNBALLOON-UI-JAM2_21
+  - first:
+      213: -4415228848451055985
+    second: CLOWNBALLOON-UI-JAM2_22
+  - first:
+      213: 8526142016008461893
+    second: CLOWNBALLOON-UI-JAM2_23
+  - first:
+      213: -3664156743596908460
+    second: CLOWNBALLOON-UI-JAM2_24
+  - first:
+      213: 5116704235322729820
+    second: CLOWNBALLOON-UI-JAM2_25
+  - first:
+      213: 6085890264134140725
+    second: CLOWNBALLOON-UI-JAM2_26
+  - first:
+      213: -5537143918731959951
+    second: CLOWNBALLOON-UI-JAM2_27
+  - first:
+      213: -6871465121834124022
+    second: CLOWNBALLOON-UI-JAM2_28
+  - first:
+      213: 2853351042633152066
+    second: CLOWNBALLOON-UI-JAM2_29
+  - first:
+      213: -1653019734219924304
+    second: CLOWNBALLOON-UI-JAM2_30
+  - first:
+      213: 7081951497213664465
+    second: CLOWNBALLOON-UI-JAM2_31
+  - first:
+      213: -3722906413596785029
+    second: CLOWNBALLOON-UI-JAM2_32
+  - first:
+      213: -1113667274107556870
+    second: CLOWNBALLOON-UI-JAM2_33
+  - first:
+      213: 1385635719504678510
+    second: CLOWNBALLOON-UI-JAM2_34
+  - first:
+      213: 881398965069128172
+    second: CLOWNBALLOON-UI-JAM2_35
+  - first:
+      213: -8115943469308808655
+    second: CLOWNBALLOON-UI-JAM2_36
+  - first:
+      213: 3631184043503179551
+    second: CLOWNBALLOON-UI-JAM2_37
+  - first:
+      213: -8989597709272430374
+    second: CLOWNBALLOON-UI-JAM2_38
+  - first:
+      213: -9088158253948449484
+    second: CLOWNBALLOON-UI-JAM2_39
+  - first:
+      213: -1606159038851936746
+    second: CLOWNBALLOON-UI-JAM2_40
+  - first:
+      213: -8291439384440422773
+    second: CLOWNBALLOON-UI-JAM2_41
+  - first:
+      213: -1773973836458030043
+    second: CLOWNBALLOON-UI-JAM2_42
+  - first:
+      213: 8046231411420323055
+    second: CLOWNBALLOON-UI-JAM2_43
+  - first:
+      213: 1761156828175418265
+    second: CLOWNBALLOON-UI-JAM2_44
+  - first:
+      213: -3076643481250694860
+    second: CLOWNBALLOON-UI-JAM2_45
+  - first:
+      213: -8818444346795300396
+    second: CLOWNBALLOON-UI-JAM2_46
+  - first:
+      213: 1872593768134866997
+    second: CLOWNBALLOON-UI-JAM2_47
+  - first:
+      213: 7846840372589719502
+    second: CLOWNBALLOON-UI-JAM2_48
+  - first:
+      213: 7631920223772560427
+    second: CLOWNBALLOON-UI-JAM2_49
+  - first:
+      213: -5070371558181945658
+    second: CLOWNBALLOON-UI-JAM2_50
+  - first:
+      213: 8546122862899132408
+    second: CLOWNBALLOON-UI-JAM2_51
+  - first:
+      213: 262671672087173094
+    second: CLOWNBALLOON-UI-JAM2_52
+  - first:
+      213: -8782238337415335939
+    second: CLOWNBALLOON-UI-JAM2_53
+  - first:
+      213: -1804173025063106112
+    second: CLOWNBALLOON-UI-JAM2_54
+  - first:
+      213: 8246996852638724561
+    second: CLOWNBALLOON-UI-JAM2_55
+  - first:
+      213: -7575122969194076991
+    second: CLOWNBALLOON-UI-JAM2_56
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CLOWNBALLOON-UI-JAM2_0
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 4152
+        width: 4329
+        height: 377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52b6e91ccf9cbee90800000000000000
+      internalID: -6995275508772607195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLOWNBALLOON-UI-JAM2_1
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 3018
+        width: 4476
+        height: 897
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3ec2f331b9b8fb60800000000000000
+      internalID: 7780172527014432316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLOWNBALLOON-UI-JAM2_2
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 2993
+        width: 41
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8918cf95e354a3e40800000000000000
+      internalID: 5636894017707606424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLOWNBALLOON-UI-JAM2_3
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 1881
+        width: 4540
+        height: 897
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e5d74e95deae4730800000000000000
+      internalID: 3985314952776242662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLOWNBALLOON-UI-JAM2_4
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 1331
+        width: 206
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e81a7daf7b63c7340800000000000000
+      internalID: 4862821861468643726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLOWNBALLOON-UI-JAM2_5
+      rect:
+        serializedVersion: 2
+        x: 3287
+        y: 1547
+        width: 16
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b5182f2cd7c81410800000000000000
+      internalID: 1448127028697503153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLOWNBALLOON-UI-JAM2_6
+      rect:
+        serializedVersion: 2
+        x: 3304
+        y: 1559
+        width: 70
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19bd0aba93c33f980800000000000000
+      internalID: -8506389052782486639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLOWNBALLOON-UI-JAM2_7
+      rect:
+        serializedVersion: 2
+        x: 1939
+        y: 1407
+        width: 88
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa57941c03857e360800000000000000
+      internalID: 7198819495799518634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLOWNBALLOON-UI-JAM2_8
+      rect:
+        serializedVersion: 2
+        x: 2486
+        y: 1178
+        width: 236
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86e58eb0aa859e5e0800000000000000
+      internalID: -1879873882083008920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLOWNBALLOON-UI-JAM2_9
+      rect:
+        serializedVersion: 2
+        x: 3252
+        y: 1343
+        width: 187
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33a74d5c9c1035d70800000000000000
+      internalID: 9030563643927067187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLOWNBALLOON-UI-JAM2_10
+      rect:
+        serializedVersion: 2
+        x: 2483
+        y: 1333
+        width: 11
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b36a3ce00060a3a90800000000000000
+      internalID: -7333542445901961669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLOWNBALLOON-UI-JAM2_11
+      rect:
+        serializedVersion: 2
+        x: 3330
+        y: 1368
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc95682a95a1ba100800000000000000
+      internalID: 120218787336575435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLOWNBALLOON-UI-JAM2_12
+      rect:
+        serializedVersion: 2
+        x: 4027
+        y: 1056
+        width: 141
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e385b485a4ea1a900800000000000000
+      internalID: 694027451923912766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLOWNBALLOON-UI-JAM2_13
+      rect:
+        serializedVersion: 2
+        x: 4022
+        y: 1338
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e668ec2007f0aebe0800000000000000
+      internalID: -1447327356488350098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLOWNBALLOON-UI-JAM2_14
+      rect:
+        serializedVersion: 2
+        x: 1631
+        y: 1309
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2740ea3cf3e33a050800000000000000
+      internalID: 5810556387824895090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLOWNBALLOON-UI-JAM2_15
+      rect:
+        serializedVersion: 2
+        x: 4022
+        y: 1317
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 111b1393d773cd590800000000000000
+      internalID: -7648177056211947247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLOWNBALLOON-UI-JAM2_16
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 1224
+        width: 31
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f803c6a1d9efd5c0800000000000000
+      internalID: -4188372041776035599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLOWNBALLOON-UI-JAM2_17
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 1222
+        width: 45
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11abb05bf809c4cc0800000000000000
+      internalID: -3725443844850075119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLOWNBALLOON-UI-JAM2_18
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 1307
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2e018434c25793e0800000000000000
+      internalID: -2047076502968660436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLOWNBALLOON-UI-JAM2_19
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 1248
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 090414ab998f674c0800000000000000
+      internalID: -4289968255885295472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLOWNBALLOON-UI-JAM2_20
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 1246
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b5c2db5752b4d6f0800000000000000
+      internalID: -660707157044181577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLOWNBALLOON-UI-JAM2_21
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 1070
+        width: 144
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b575a18e1f4748e80800000000000000
+      internalID: -8177282441067997349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLOWNBALLOON-UI-JAM2_22
+      rect:
+        serializedVersion: 2
+        x: 3061
+        y: 870
+        width: 173
+        height: 396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8e840651c4f9b2c0800000000000000
+      internalID: -4415228848451055985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLOWNBALLOON-UI-JAM2_23
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 1202
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54e97b87df0f25670800000000000000
+      internalID: 8526142016008461893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLOWNBALLOON-UI-JAM2_24
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 1200
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 450ed80fadc462dc0800000000000000
+      internalID: -3664156743596908460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLOWNBALLOON-UI-JAM2_25
+      rect:
+        serializedVersion: 2
+        x: 2105
+        y: 929
+        width: 186
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c55e52f746f220740800000000000000
+      internalID: 5116704235322729820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLOWNBALLOON-UI-JAM2_26
+      rect:
+        serializedVersion: 2
+        x: 2218
+        y: 1185
+        width: 43
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53349b763fc657450800000000000000
+      internalID: 6085890264134140725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLOWNBALLOON-UI-JAM2_27
+      rect:
+        serializedVersion: 2
+        x: 4157
+        y: 1215
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17164c561fc1823b0800000000000000
+      internalID: -5537143918731959951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLOWNBALLOON-UI-JAM2_28
+      rect:
+        serializedVersion: 2
+        x: 4157
+        y: 1145
+        width: 14
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0d3796d0e6a3a0a0800000000000000
+      internalID: -6871465121834124022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLOWNBALLOON-UI-JAM2_29
+      rect:
+        serializedVersion: 2
+        x: 2769
+        y: 1046
+        width: 82
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 246b3a3d7a3299720800000000000000
+      internalID: 2853351042633152066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLOWNBALLOON-UI-JAM2_30
+      rect:
+        serializedVersion: 2
+        x: 3488
+        y: 1003
+        width: 322
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bc5c1f4f4b4f09e0800000000000000
+      internalID: -1653019734219924304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLOWNBALLOON-UI-JAM2_31
+      rect:
+        serializedVersion: 2
+        x: 3814
+        y: 1121
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dc57fb6d55284260800000000000000
+      internalID: 7081951497213664465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLOWNBALLOON-UI-JAM2_32
+      rect:
+        serializedVersion: 2
+        x: 3831
+        y: 1110
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b764a857754955cc0800000000000000
+      internalID: -3722906413596785029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLOWNBALLOON-UI-JAM2_33
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 678
+        width: 306
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afb67d0c3857b80f0800000000000000
+      internalID: -1113667274107556870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLOWNBALLOON-UI-JAM2_34
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 1017
+        width: 238
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6e4b217854ca3310800000000000000
+      internalID: 1385635719504678510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLOWNBALLOON-UI-JAM2_35
+      rect:
+        serializedVersion: 2
+        x: 2764
+        y: 1048
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce1a75a50bb5b3c00800000000000000
+      internalID: 881398965069128172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLOWNBALLOON-UI-JAM2_36
+      rect:
+        serializedVersion: 2
+        x: 3633
+        y: 992
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13272be2a606e5f80800000000000000
+      internalID: -8115943469308808655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLOWNBALLOON-UI-JAM2_37
+      rect:
+        serializedVersion: 2
+        x: 3647
+        y: 993
+        width: 22
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f17d21316ae846230800000000000000
+      internalID: 3631184043503179551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLOWNBALLOON-UI-JAM2_38
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 937
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad8c62923888e3380800000000000000
+      internalID: -8989597709272430374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLOWNBALLOON-UI-JAM2_39
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 832
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43d4eda183060e180800000000000000
+      internalID: -9088158253948449484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLOWNBALLOON-UI-JAM2_40
+      rect:
+        serializedVersion: 2
+        x: 1401
+        y: 830
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61e827c2dd6c5b9e0800000000000000
+      internalID: -1606159038851936746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLOWNBALLOON-UI-JAM2_41
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 808
+        width: 78
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8ebebd4fc3eeec80800000000000000
+      internalID: -8291439384440422773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLOWNBALLOON-UI-JAM2_42
+      rect:
+        serializedVersion: 2
+        x: 3779
+        y: 498
+        width: 290
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52c0515d1349167e0800000000000000
+      internalID: -1773973836458030043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLOWNBALLOON-UI-JAM2_43
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 597
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fec5c4286d4f9af60800000000000000
+      internalID: 8046231411420323055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLOWNBALLOON-UI-JAM2_44
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 595
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9934621edc2e07810800000000000000
+      internalID: 1761156828175418265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLOWNBALLOON-UI-JAM2_45
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 475
+        width: 2396
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 439f787fd019d45d0800000000000000
+      internalID: -3076643481250694860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLOWNBALLOON-UI-JAM2_46
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 540
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d9e6b5b6979e9580800000000000000
+      internalID: -8818444346795300396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLOWNBALLOON-UI-JAM2_47
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 481
+        width: 90
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 538f9465c1accf910800000000000000
+      internalID: 1872593768134866997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLOWNBALLOON-UI-JAM2_48
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 520
+        width: 99
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecf67699eb395ec60800000000000000
+      internalID: 7846840372589719502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLOWNBALLOON-UI-JAM2_49
+      rect:
+        serializedVersion: 2
+        x: 1275
+        y: 554
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2c451402070ae960800000000000000
+      internalID: 7631920223772560427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLOWNBALLOON-UI-JAM2_50
+      rect:
+        serializedVersion: 2
+        x: 1349
+        y: 544
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ce325b8eeb62a9b0800000000000000
+      internalID: -5070371558181945658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLOWNBALLOON-UI-JAM2_51
+      rect:
+        serializedVersion: 2
+        x: 1243
+        y: 523
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f772f9e67de99670800000000000000
+      internalID: 8546122862899132408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLOWNBALLOON-UI-JAM2_52
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 483
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e7505b7e7235a300800000000000000
+      internalID: 262671672087173094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLOWNBALLOON-UI-JAM2_53
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 481
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dffaa8d23c83f1680800000000000000
+      internalID: -8782238337415335939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLOWNBALLOON-UI-JAM2_54
+      rect:
+        serializedVersion: 2
+        x: 3970
+        y: 4
+        width: 148
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c985cf413a46f6e0800000000000000
+      internalID: -1804173025063106112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLOWNBALLOON-UI-JAM2_55
+      rect:
+        serializedVersion: 2
+        x: 4111
+        y: 0
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d1bb4961f7337270800000000000000
+      internalID: 8246996852638724561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLOWNBALLOON-UI-JAM2_56
+      rect:
+        serializedVersion: 2
+        x: 4124
+        y: 0
+        width: 30
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c4e8435bc1cfd690800000000000000
+      internalID: -7575122969194076991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CLOWNBALLOON-UI-JAM2_0: -6995275508772607195
+      CLOWNBALLOON-UI-JAM2_1: 7780172527014432316
+      CLOWNBALLOON-UI-JAM2_10: -7333542445901961669
+      CLOWNBALLOON-UI-JAM2_11: 120218787336575435
+      CLOWNBALLOON-UI-JAM2_12: 694027451923912766
+      CLOWNBALLOON-UI-JAM2_13: -1447327356488350098
+      CLOWNBALLOON-UI-JAM2_14: 5810556387824895090
+      CLOWNBALLOON-UI-JAM2_15: -7648177056211947247
+      CLOWNBALLOON-UI-JAM2_16: -4188372041776035599
+      CLOWNBALLOON-UI-JAM2_17: -3725443844850075119
+      CLOWNBALLOON-UI-JAM2_18: -2047076502968660436
+      CLOWNBALLOON-UI-JAM2_19: -4289968255885295472
+      CLOWNBALLOON-UI-JAM2_2: 5636894017707606424
+      CLOWNBALLOON-UI-JAM2_20: -660707157044181577
+      CLOWNBALLOON-UI-JAM2_21: -8177282441067997349
+      CLOWNBALLOON-UI-JAM2_22: -4415228848451055985
+      CLOWNBALLOON-UI-JAM2_23: 8526142016008461893
+      CLOWNBALLOON-UI-JAM2_24: -3664156743596908460
+      CLOWNBALLOON-UI-JAM2_25: 5116704235322729820
+      CLOWNBALLOON-UI-JAM2_26: 6085890264134140725
+      CLOWNBALLOON-UI-JAM2_27: -5537143918731959951
+      CLOWNBALLOON-UI-JAM2_28: -6871465121834124022
+      CLOWNBALLOON-UI-JAM2_29: 2853351042633152066
+      CLOWNBALLOON-UI-JAM2_3: 3985314952776242662
+      CLOWNBALLOON-UI-JAM2_30: -1653019734219924304
+      CLOWNBALLOON-UI-JAM2_31: 7081951497213664465
+      CLOWNBALLOON-UI-JAM2_32: -3722906413596785029
+      CLOWNBALLOON-UI-JAM2_33: -1113667274107556870
+      CLOWNBALLOON-UI-JAM2_34: 1385635719504678510
+      CLOWNBALLOON-UI-JAM2_35: 881398965069128172
+      CLOWNBALLOON-UI-JAM2_36: -8115943469308808655
+      CLOWNBALLOON-UI-JAM2_37: 3631184043503179551
+      CLOWNBALLOON-UI-JAM2_38: -8989597709272430374
+      CLOWNBALLOON-UI-JAM2_39: -9088158253948449484
+      CLOWNBALLOON-UI-JAM2_4: 4862821861468643726
+      CLOWNBALLOON-UI-JAM2_40: -1606159038851936746
+      CLOWNBALLOON-UI-JAM2_41: -8291439384440422773
+      CLOWNBALLOON-UI-JAM2_42: -1773973836458030043
+      CLOWNBALLOON-UI-JAM2_43: 8046231411420323055
+      CLOWNBALLOON-UI-JAM2_44: 1761156828175418265
+      CLOWNBALLOON-UI-JAM2_45: -3076643481250694860
+      CLOWNBALLOON-UI-JAM2_46: -8818444346795300396
+      CLOWNBALLOON-UI-JAM2_47: 1872593768134866997
+      CLOWNBALLOON-UI-JAM2_48: 7846840372589719502
+      CLOWNBALLOON-UI-JAM2_49: 7631920223772560427
+      CLOWNBALLOON-UI-JAM2_5: 1448127028697503153
+      CLOWNBALLOON-UI-JAM2_50: -5070371558181945658
+      CLOWNBALLOON-UI-JAM2_51: 8546122862899132408
+      CLOWNBALLOON-UI-JAM2_52: 262671672087173094
+      CLOWNBALLOON-UI-JAM2_53: -8782238337415335939
+      CLOWNBALLOON-UI-JAM2_54: -1804173025063106112
+      CLOWNBALLOON-UI-JAM2_55: 8246996852638724561
+      CLOWNBALLOON-UI-JAM2_56: -7575122969194076991
+      CLOWNBALLOON-UI-JAM2_6: -8506389052782486639
+      CLOWNBALLOON-UI-JAM2_7: 7198819495799518634
+      CLOWNBALLOON-UI-JAM2_8: -1879873882083008920
+      CLOWNBALLOON-UI-JAM2_9: 9030563643927067187
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -181,7 +181,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 12
+  orthographic size: 3.5
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -206,11 +206,11 @@ Transform:
   m_GameObject: {fileID: 249311947}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.97, z: -10}
+  m_LocalPosition: {x: 0, y: 2, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 976889186}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &249311951
 MonoBehaviour:
@@ -1591,6 +1591,11 @@ TilemapCollider2D:
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0
   m_UseDelaunayMesh: 0
+--- !u!4 &976889186 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6686307600352979325, guid: c6d13c77339084847a9ce1d53c7e06f7, type: 3}
+  m_PrefabInstance: {fileID: 4218668282307334101}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1030840325
 GameObject:
   m_ObjectHideFlags: 0
@@ -1864,14 +1869,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 6686307600352979325, guid: c6d13c77339084847a9ce1d53c7e06f7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 249311950}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c6d13c77339084847a9ce1d53c7e06f7, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 249311950}
   - {fileID: 4218668282307334101}
   - {fileID: 746630461}
   - {fileID: 1926663033}

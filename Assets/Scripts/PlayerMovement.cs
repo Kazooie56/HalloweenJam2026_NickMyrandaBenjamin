@@ -19,6 +19,8 @@ public class PlayerMovement : MonoBehaviour
     // A value we use to know which direction the projectiles are coming from
     public float facingDirection = 1f;
 
+    [SerializeField] private Transform visual;
+
     private bool isGrounded;
     private float oldYPosition;
     private float stillTimer;
@@ -58,6 +60,7 @@ public class PlayerMovement : MonoBehaviour
                 // returns either -1 or 1 depending on if it's positive or negative
                 // 
                 facingDirection = Mathf.Sign(moveInput);
+                UpdateFacing();
             }
 
             rigidBody.linearVelocity = new Vector2(moveInput * speed, rigidBody.linearVelocity.y);
@@ -108,5 +111,12 @@ public class PlayerMovement : MonoBehaviour
                 isGrounded = true;
             }
         }
+    }
+
+    private void UpdateFacing()
+    {
+        Vector3 scale = visual.localScale;
+        scale.x = Mathf.Abs(scale.x) * facingDirection;
+        visual.localScale = scale;
     }
 }
