@@ -1608,6 +1608,7 @@ MonoBehaviour:
   dialoguePanel: {fileID: 236969324}
   dialogueText: {fileID: 615412339}
   nameText: {fileID: 534876384}
+  timeBetweenCharacters: 0.05
 --- !u!1001 &1873171210
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1737,6 +1738,18 @@ PrefabInstance:
     - target: {fileID: 3962917540685014439, guid: 67f4be0f82d90174ab4945173ce8636a, type: 3}
       propertyPath: sentences.Array.size
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3962917540685014439, guid: 67f4be0f82d90174ab4945173ce8636a, type: 3}
+      propertyPath: 'sentences.Array.data[0]'
+      value: hey
+      objectReference: {fileID: 0}
+    - target: {fileID: 3962917540685014439, guid: 67f4be0f82d90174ab4945173ce8636a, type: 3}
+      propertyPath: 'sentences.Array.data[1]'
+      value: sup
+      objectReference: {fileID: 0}
+    - target: {fileID: 3962917540685014439, guid: 67f4be0f82d90174ab4945173ce8636a, type: 3}
+      propertyPath: 'sentences.Array.data[2]'
+      value: bye
       objectReference: {fileID: 0}
     - target: {fileID: 3962917540685014439, guid: 67f4be0f82d90174ab4945173ce8636a, type: 3}
       propertyPath: 'sentences.Array.data[3]'
