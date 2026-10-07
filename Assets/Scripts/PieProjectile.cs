@@ -4,7 +4,7 @@ public class PieProjectile : MonoBehaviour
 {
     [SerializeField] private float speed = 12f;
     [SerializeField] private int damage = 1;
-    [SerializeField] private float timeBeforeDespawn = 3f;
+    [SerializeField] private float timeBeforeDespawn = 0.1f;
 
     private Rigidbody2D rigidBody;
 

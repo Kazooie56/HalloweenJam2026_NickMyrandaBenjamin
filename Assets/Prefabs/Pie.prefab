@@ -181,4 +181,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PieProjectile
   speed: 12
   damage: 1
-  timeBeforeDespawn: 3
+  timeBeforeDespawn: 1

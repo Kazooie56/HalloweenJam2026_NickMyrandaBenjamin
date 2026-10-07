@@ -5,7 +5,7 @@ public class PlayerShooting : MonoBehaviour
 {
     [SerializeField] private InputActionReference attackAction;
     [SerializeField] private PieProjectile piePrefab;
-    [SerializeField] private float cooldown = 0.3f;
+    [SerializeField] private float fireRate = 0.3f;
 
     private PlayerMovement movement;
     private float nextShotTime;
@@ -32,7 +32,7 @@ public class PlayerShooting : MonoBehaviour
         if (attackAction.action.WasPressedThisFrame() && Time.time >= nextShotTime)
         {
             // start cooldown for shooting and shoot
-            nextShotTime = Time.time + cooldown;
+            nextShotTime = Time.time + fireRate;
             Shoot();
         }
     }
