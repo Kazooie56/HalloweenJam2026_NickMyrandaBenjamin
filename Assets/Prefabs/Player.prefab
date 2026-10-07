@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 230024819636795103}
   - component: {fileID: 5690318375268675389}
   - component: {fileID: 7119372533560171153}
+  - component: {fileID: 9065428117744601037}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -184,7 +185,10 @@ MonoBehaviour:
   jumpAction: {fileID: -2099379676528639254, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   speed: 5
   jumpVelocity: 10
+  knockbackDuration: 0.75
   facingDirection: 1
+  visual: {fileID: 6686307600352979325}
+  canMove: 0
 --- !u!114 &7119372533560171153
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -200,3 +204,18 @@ MonoBehaviour:
   attackAction: {fileID: 1120369429361536294, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   piePrefab: {fileID: 4100632336537798785, guid: 0f0dec65d3579144ca1a96088d15bdb2, type: 3}
   fireRate: 0.3
+--- !u!114 &9065428117744601037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 744058475359106681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1023eec43e5094f46b57cd9fd89bc459, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
+  maxHealth: 3
+  knockbackForce: {x: 6, y: 8}
+  invincibilityTime: 1

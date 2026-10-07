@@ -40,7 +40,7 @@ public class Enemy : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            // damage later
+            // playerHealth.TakeDamage(1, transform.position);
         }
     }
 }

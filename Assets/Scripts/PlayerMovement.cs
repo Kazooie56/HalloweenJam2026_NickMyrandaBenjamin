@@ -11,6 +11,7 @@ public class PlayerMovement : MonoBehaviour
     [Header("Movement Values")]
     [SerializeField] private float speed = 5f;
     [SerializeField] private float jumpVelocity = 20f;
+    [SerializeField] private float knockbackDuration = 0.75f;
 
     // rigidBody is used for movement and moveInput is the value
     private Rigidbody2D rigidBody;
@@ -18,6 +19,8 @@ public class PlayerMovement : MonoBehaviour
 
     // A value we use to know which direction the projectiles are coming from
     public float facingDirection = 1f;
+
+    private float knockbackTimer;
 
     [SerializeField] private Transform visual;
 
@@ -50,6 +53,12 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
+        if (knockbackTimer > 0f)
+        {
+            knockbackTimer -= Time.deltaTime;
+            return;
+        }
+
         if (canMove)
         {
             // .x means only the horizontal movement matters
@@ -118,5 +127,12 @@ public class PlayerMovement : MonoBehaviour
         Vector3 scale = visual.localScale;
         scale.x = Mathf.Abs(scale.x) * facingDirection;
         visual.localScale = scale;
+    }
+
+    public void GetKnockedback(Vector2 velocity)
+    {
+        knockbackTimer = knockbackDuration;
+        rigidBody.linearVelocity = velocity;
+        isGrounded = false;
     }
 }
