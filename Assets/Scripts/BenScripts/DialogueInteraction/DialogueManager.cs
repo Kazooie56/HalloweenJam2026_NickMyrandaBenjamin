@@ -1,4 +1,6 @@
+using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class DialogueManager : MonoBehaviour
@@ -48,7 +50,7 @@ public class DialogueManager : MonoBehaviour
         }
 
         else if (dialogueQueue.Count > 0)
-        {
+        {   
             uiManager.SetDialogueText(dialogueQueue.Dequeue());
         }
     }
