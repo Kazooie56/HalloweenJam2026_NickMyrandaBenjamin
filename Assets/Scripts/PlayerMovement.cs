@@ -23,11 +23,15 @@ public class PlayerMovement : MonoBehaviour
     private float oldYPosition;
     private float stillTimer;
 
+    public bool canMove;
+
     private void Awake()
     {
         rigidBody = GetComponent<Rigidbody2D>();
 
         oldYPosition = transform.position.y;
+
+        canMove = true;
     }
 
     private void OnEnable()
@@ -44,32 +48,41 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
-        // .x means only the horizontal movement matters
-        moveInput = moveAction.action.ReadValue<Vector2>().x;
-
-        if (moveInput != 0f)
+        if (canMove)
         {
-            // returns either -1 or 1 depending on if it's positive or negative
-            // 
-            facingDirection = Mathf.Sign(moveInput);
+            // .x means only the horizontal movement matters
+            moveInput = moveAction.action.ReadValue<Vector2>().x;
+
+            if (moveInput != 0f)
+            {
+                // returns either -1 or 1 depending on if it's positive or negative
+                // 
+                facingDirection = Mathf.Sign(moveInput);
+            }
+
+            rigidBody.linearVelocity = new Vector2(moveInput * speed, rigidBody.linearVelocity.y);
+
+            UpdateGrounded();
+
+            // if we press jump and we're grounded, jump.
+            if (jumpAction.action.WasPressedThisFrame() && isGrounded == true)
+            {
+                // when we write rigidBody.linearVelocity for an updated Vector2, it doesn't change anything.
+                // Launch the player upwards and the Rigidbody 2D pulls them down naturally with Gravity.
+                rigidBody.linearVelocity = new Vector2(rigidBody.linearVelocity.x, jumpVelocity);
+
+                // reset everything, keep this within the if statement to immediately prevent multiple jumps
+                isGrounded = false;
+                stillTimer = 0f;
+                oldYPosition = transform.position.y;
+            }
+        }
+        else
+        {
+            moveInput = 0f;
+            rigidBody.linearVelocity = new Vector2(moveInput * speed, rigidBody.linearVelocity.y);
         }
 
-        rigidBody.linearVelocity = new Vector2(moveInput * speed, rigidBody.linearVelocity.y);
-
-        UpdateGrounded();
-
-        // if we press jump and we're grounded, jump.
-        if (jumpAction.action.WasPressedThisFrame() && isGrounded == true)
-        {
-            // when we write rigidBody.linearVelocity for an updated Vector2, it doesn't change anything.
-            // Launch the player upwards and the Rigidbody 2D pulls them down naturally with Gravity.
-            rigidBody.linearVelocity = new Vector2(rigidBody.linearVelocity.x, jumpVelocity);
-
-            // reset everything, keep this within the if statement to immediately prevent multiple jumps
-            isGrounded = false;
-            stillTimer = 0f;
-            oldYPosition = transform.position.y;
-        }
     }
 
     private void UpdateGrounded()
