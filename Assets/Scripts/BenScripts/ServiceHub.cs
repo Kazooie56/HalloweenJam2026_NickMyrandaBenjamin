@@ -1,6 +1,5 @@
 using System;
 using UnityEngine;
-
 public class ServiceHub : MonoBehaviour
 {
     public static ServiceHub Instance { get; private set; }

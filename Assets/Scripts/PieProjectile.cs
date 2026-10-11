@@ -21,7 +21,11 @@ public class PieProjectile : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
+        // the NPC tag check was first used to make it not destroy on the NPC's
+        // but I've just been tagging everything as NPC since we don't use the NPC tag for any responsibilities
+        // it's just a quick bad way to make it go through things it should.
+        // NOTE: NOW YOU CAN'T RELY ON ANYTHING COMPARING TO THE NPC TAG, SHOULD BE IRRELEVANT BUT JUST IN CASE.
+        if (other.CompareTag("Player") || other.CompareTag("NPC"))
         {
             return;
         }

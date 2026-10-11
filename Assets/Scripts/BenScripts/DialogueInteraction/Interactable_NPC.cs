@@ -31,5 +31,4 @@ public class Interactable_NPC : MonoBehaviour, IInteractable
             dialogueManager.StartDialogue(characterName, sentences);
         }
     }
-
 }

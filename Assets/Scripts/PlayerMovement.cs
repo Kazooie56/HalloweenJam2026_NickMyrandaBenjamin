@@ -3,7 +3,6 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
-
     [Header("Input Action References")]
     [SerializeField] private InputActionReference moveAction;
     [SerializeField] private InputActionReference jumpAction;
@@ -11,16 +10,19 @@ public class PlayerMovement : MonoBehaviour
     [Header("Movement Values")]
     [SerializeField] private float speed = 5f;
     [SerializeField] private float jumpVelocity = 20f;
+    [SerializeField] private float knockbackX = 6f;
+    [SerializeField] private float knockbackY = 8f;
     [SerializeField] private float knockbackDuration = 0.75f;
 
     // rigidBody is used for movement and moveInput is the value
     private Rigidbody2D rigidBody;
     private float moveInput;
 
-    // A value we use to know which direction the projectiles are coming from
+    // A value we use to know which direction the player and projectiles should face.
     public float facingDirection = 1f;
 
     private float knockbackTimer;
+    private bool jumpRequested;
 
     [SerializeField] private Transform visual;
 
@@ -53,48 +55,69 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
-        if (knockbackTimer > 0f)
+        if (PauseMenu.IsPaused)
         {
-            knockbackTimer -= Time.deltaTime;
             return;
         }
 
-        if (canMove)
-        {
-            // .x means only the horizontal movement matters
-            moveInput = moveAction.action.ReadValue<Vector2>().x;
-
-            if (moveInput != 0f)
-            {
-                // returns either -1 or 1 depending on if it's positive or negative
-                // 
-                facingDirection = Mathf.Sign(moveInput);
-                UpdateFacing();
-            }
-
-            rigidBody.linearVelocity = new Vector2(moveInput * speed, rigidBody.linearVelocity.y);
-
-            UpdateGrounded();
-
-            // if we press jump and we're grounded, jump.
-            if (jumpAction.action.WasPressedThisFrame() && isGrounded == true)
-            {
-                // when we write rigidBody.linearVelocity for an updated Vector2, it doesn't change anything.
-                // Launch the player upwards and the Rigidbody 2D pulls them down naturally with Gravity.
-                rigidBody.linearVelocity = new Vector2(rigidBody.linearVelocity.x, jumpVelocity);
-
-                // reset everything, keep this within the if statement to immediately prevent multiple jumps
-                isGrounded = false;
-                stillTimer = 0f;
-                oldYPosition = transform.position.y;
-            }
-        }
-        else
+        if (!canMove || knockbackTimer > 0f)
         {
             moveInput = 0f;
-            rigidBody.linearVelocity = new Vector2(moveInput * speed, rigidBody.linearVelocity.y);
+            return;
         }
 
+        // .x means only the horizontal movement matters
+        moveInput = moveAction.action.ReadValue<Vector2>().x;
+
+        if (moveInput != 0f)
+        {
+            // returns either -1 or 1 depending on if it's positive or negative
+            facingDirection = Mathf.Sign(moveInput);
+            UpdateFacing();
+        }
+
+        if (jumpAction.action.WasPressedThisFrame())
+        {
+            jumpRequested = true;
+        }
+    }
+
+    private void FixedUpdate()
+    {
+        // player can't move until they are done taking knockback
+        if (knockbackTimer > 0f)
+        {
+            knockbackTimer -= Time.fixedDeltaTime;
+            jumpRequested = false;
+            return;
+        }
+
+        // no jumping if can't move
+        if (!canMove)
+        {
+            jumpRequested = false;
+            rigidBody.linearVelocity = new Vector2(0f, rigidBody.linearVelocity.y);
+            return;
+        }
+
+        UpdateGrounded();
+
+        // the actual movement line
+        rigidBody.linearVelocity = new Vector2(moveInput * speed, rigidBody.linearVelocity.y);
+
+        // if jumpRequested was made true from Update, and we're grounded
+        if (jumpRequested && isGrounded)
+        {
+            // replace our rigidbody's velocity vertically and add our jump velocity instead
+            rigidBody.linearVelocity = new Vector2(rigidBody.linearVelocity.x, jumpVelocity);
+
+            // reset everything, keep this within the if statement to immediately prevent multiple jumps
+            isGrounded = false;
+            stillTimer = 0f;
+            oldYPosition = transform.position.y;
+        }
+
+        jumpRequested = false;
     }
 
     private void UpdateGrounded()
@@ -124,15 +147,21 @@ public class PlayerMovement : MonoBehaviour
 
     private void UpdateFacing()
     {
+        // just inverts the image's scale depending on the direction you're looking, 
+        // since it always returns -1 or 1, it always flips perfectly.
         Vector3 scale = visual.localScale;
         scale.x = Mathf.Abs(scale.x) * facingDirection;
         visual.localScale = scale;
     }
 
-    public void GetKnockedback(Vector2 velocity)
+    public void GetKnockedBack(Vector2 hitSourcePosition)
     {
+        // returns either -1 or 1 depending on if it's positive or negative
+        // if player is more to the right, the x is higher, therefore, move right.
+        float direction = Mathf.Sign(transform.position.x - hitSourcePosition.x);
+
         knockbackTimer = knockbackDuration;
-        rigidBody.linearVelocity = velocity;
+        rigidBody.linearVelocity = new Vector2(direction * knockbackX, knockbackY);
         isGrounded = false;
     }
 }

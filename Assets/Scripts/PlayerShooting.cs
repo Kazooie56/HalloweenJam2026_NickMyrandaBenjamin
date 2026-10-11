@@ -27,6 +27,11 @@ public class PlayerShooting : MonoBehaviour
 
     private void Update()
     {
+        // only time canMove is disabled is when we deactivate all player control,
+        // so a movement check here does the job.
+        if (!movement.canMove) return;
+        if (PauseMenu.IsPaused) return;
+
         // if you shoot and it hasn't been too soon
         // you must use Time.time, Time.deltaTime is broken
         if (attackAction.action.WasPressedThisFrame() && Time.time >= nextShotTime)
@@ -40,7 +45,7 @@ public class PlayerShooting : MonoBehaviour
     private void Shoot()
     {
         // either moves in the negative or positive x direction based on facingDirection
-        // the y is 0f because it moves straight
+        // the y is 0f because it moves in a straight line
         Vector2 direction = new Vector2(movement.facingDirection, 0f);
 
         Quaternion rotation;

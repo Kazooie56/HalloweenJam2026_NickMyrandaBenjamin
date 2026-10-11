@@ -1313,7 +1313,9 @@ MonoBehaviour:
   jumpAction: {fileID: -2099379676528639254, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   speed: 8
   jumpVelocity: 10
+  knockbackDuration: 0.75
   facingDirection: 1
+  visual: {fileID: 1234782913}
   canMove: 0
 --- !u!114 &1234782915
 MonoBehaviour:
@@ -1329,7 +1331,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerShooting
   attackAction: {fileID: 0}
   piePrefab: {fileID: 4100632336537798785, guid: 0f0dec65d3579144ca1a96088d15bdb2, type: 3}
-  cooldown: 0.3
+  fireRate: 0.3
 --- !u!114 &1234782916
 MonoBehaviour:
   m_ObjectHideFlags: 0
