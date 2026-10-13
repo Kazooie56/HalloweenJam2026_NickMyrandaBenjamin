@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f9dfa4de0d7c3914b9b1afdeacee9ab2
+guid: 97c51a927e3b1864fa77849e18168dc9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5617527922789716049
-    second: White Square_0
+      213: 1261290190399975005
+    second: OPENDOORJAM2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,12 +46,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 1000
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: White Square_0
+      name: OPENDOORJAM2_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 2458
-        height: 1843
+        x: 28
+        y: 804
+        width: 4944
+        height: 2984
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 15018b102e775fd40800000000000000
-      internalID: 5617527922789716049
+      spriteID: d5ea97ddeb0018110800000000000000
+      internalID: 1261290190399975005
       vertices: []
       indices: 
       edges: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      White Square_0: 5617527922789716049
+      OPENDOORJAM2_0: 1261290190399975005
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

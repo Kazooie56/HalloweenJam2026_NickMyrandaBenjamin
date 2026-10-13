@@ -84,7 +84,7 @@ MeshRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!114 &573030759659938313
@@ -194,7 +194,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a43437a0281bb74db6c09830b3affdf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InteractPrompt
-  label: {fileID: 573030759659938313}
+  interactPrompt: {fileID: 0}
   CanShow: 1
 --- !u!1 &6797935933868100887
 GameObject:
@@ -279,7 +279,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_MaskInteraction: 0
   m_Sprite: {fileID: 2306489918562581486, guid: 153e5ae00e1b05444b9df67de3a4b748, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

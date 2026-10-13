@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: 4afd0354a94337c49856b2e210c74497
+guid: e758ccfe06d28344b8fa3909219abc30
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5079835945943661892
-    second: Block Placeholder_0
+      213: 1949752701519781466
+    second: MAINCLOWNSPRITEJAM2remake_0
+  - first:
+      213: 3886484093268493541
+    second: MAINCLOWNSPRITEJAM2remake_1
+  - first:
+      213: -2889843049408448620
+    second: MAINCLOWNSPRITEJAM2remake_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,12 +52,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 400
+  spritePixelsToUnits: 1500
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -113,13 +119,35 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Block Placeholder_0
+      name: MAINCLOWNSPRITEJAM2remake_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 399
-        height: 399
+        x: 589
+        y: 811
+        width: 2460
+        height: 3385
+      alignment: 9
+      pivot: {x: 0.44087222, y: 0.52745324}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5ed1f570c9ee0b10800000000000000
+      internalID: 1949752701519781466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MAINCLOWNSPRITEJAM2remake_1
+      rect:
+        serializedVersion: 2
+        x: 3367
+        y: 853
+        width: 2227
+        height: 3294
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +156,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cb284cc0f1cc089b0800000000000000
-      internalID: -5079835945943661892
+      spriteID: 5e4897cf0b09fe530800000000000000
+      internalID: 3886484093268493541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MAINCLOWNSPRITEJAM2remake_2
+      rect:
+        serializedVersion: 2
+        x: 6099
+        y: 825
+        width: 2285
+        height: 3298
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 497b06fbe0735e7d0800000000000000
+      internalID: -2889843049408448620
       vertices: []
       indices: 
       edges: []
@@ -138,7 +188,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 39ea5d99bd3d7e84a85a4e4aa504ebc6
+    spriteID: d51dde3d4ca583d49a2c8c49f55132d3
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +198,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Block Placeholder_0: -5079835945943661892
+      MAINCLOWNSPRITEJAM2remake_0: 1949752701519781466
+      MAINCLOWNSPRITEJAM2remake_1: 3886484093268493541
+      MAINCLOWNSPRITEJAM2remake_2: -2889843049408448620
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -21,6 +21,9 @@ public class PieProjectile : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        // this ignores the enemy's sight radius, without this, hitting the trigger that the enemy uses to see counts as hitting the enemy.
+        if (other.isTrigger) return;
+
         // the NPC tag check was first used to make it not destroy on the NPC's
         // but I've just been tagging everything as NPC since we don't use the NPC tag for any responsibilities
         // it's just a quick bad way to make it go through things it should.
@@ -34,6 +37,12 @@ public class PieProjectile : MonoBehaviour
         if (enemy != null)
         {
             enemy.TakeDamage(damage);
+        }
+
+        BreakableBlock block = other.GetComponent<BreakableBlock>();
+        if (block != null)
+        {
+            block.TakeDamage(damage);
         }
 
         // if it hits anything other than the player, it's destroyed.

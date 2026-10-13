@@ -6,19 +6,44 @@ public class Door : MonoBehaviour, IInteractable
     [SerializeField] private SceneLoader.GameScene destination;
     [SerializeField] private bool isDisabled;
 
+    [Header("Progress")]
+    [SerializeField] private ProgressUnlocked unlockedByFlag = ProgressUnlocked.None; // this is for unlocking level 1
+    [SerializeField] private ProgressUnlocked flagToSetOnEnter = ProgressUnlocked.None; // this is for swapping the clown
+
     [SerializeField] private SpriteRenderer spriteRenderer;
     [SerializeField] private InteractPrompt prompt;
 
+    [Header("Sprites")]
+    [SerializeField] private Sprite closedSprite;
+    [SerializeField] private Sprite openSprite;
+
+    private void OnEnable()
+    {
+        ProgressManager.onChanged += Refresh;
+    }
+
+    private void OnDisable()
+    {
+        ProgressManager.onChanged -= Refresh;
+    }
+
     private void Start()
     {
+        Refresh();
+    }
+    private void SetDisabled(bool disabled)
+    {
         // doors that should be enabled begin enabled, those that shouldn't arent.
+        isDisabled = disabled;
         UpdateDoor();
     }
 
-    // Add a door enabler soon. For now this is unused
-    public void SetDisabled(bool disabled)
+    private void Refresh()
     {
-        isDisabled = disabled;
+        if (unlockedByFlag != ProgressUnlocked.None)
+        {
+            isDisabled = !ProgressManager.Get(unlockedByFlag);
+        }
         UpdateDoor();
     }
 
@@ -29,6 +54,7 @@ public class Door : MonoBehaviour, IInteractable
             return;
         }
 
+        ProgressManager.Set(flagToSetOnEnter);
         SceneLoader.Load(destination);
     }
 
@@ -36,13 +62,21 @@ public class Door : MonoBehaviour, IInteractable
     {
         if (isDisabled)
         {
-            spriteRenderer.color = new Color32(0, 0, 0, 150); // completely black and half transparent
-            prompt.CanShow = false;
+            spriteRenderer.sprite = closedSprite;
         }
         else
         {
-            spriteRenderer.color = new Color32(0, 0, 0, 255); // no transparency
-            prompt.CanShow = true;
+            spriteRenderer.sprite = openSprite;
+        }
+
+        if (prompt != null)
+        {
+            prompt.CanShow = !isDisabled;
+
+            if (isDisabled)
+            {
+                prompt.SetVisible(false);
+            }
         }
     }
 }

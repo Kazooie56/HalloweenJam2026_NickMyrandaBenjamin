@@ -13,18 +13,14 @@ public class ServiceHub : MonoBehaviour
     public DialogueManager DialogueManager => dialogueManager;
     public GameObject Player => player;
 
-    // Singleton
-    void Awake()
+    // instead of destroying every new ServiceHub, it destroys every old ServiceHub.
+    // so we can use each scene's references
+    private void Awake()
     {
-        if (Instance == null)
-        {
-            DontDestroyOnLoad(gameObject);
-            Instance = this;
-        }
-
-        else if (Instance != null)
-        {
-            Destroy(gameObject);
-        }
+        Instance = this;
+    }
+    private void OnDestroy()
+    {
+        if (Instance == this) Instance = null;
     }
 }

@@ -4,6 +4,7 @@ using UnityEngine.InputSystem;
 public class PlayerShooting : MonoBehaviour
 {
     [SerializeField] private InputActionReference attackAction;
+    [SerializeField] private InputActionReference moveAction; // only for checking if we should place balloon or throw pie.
     [SerializeField] private PieProjectile piePrefab;
     [SerializeField] private float fireRate = 0.3f;
 
@@ -18,19 +19,23 @@ public class PlayerShooting : MonoBehaviour
     private void OnEnable()
     {
         attackAction.action.Enable();
+        moveAction.action.Enable();
     }
 
     private void OnDisable()
     {
         attackAction.action.Disable();
+        moveAction.action.Disable();
     }
 
     private void Update()
     {
         // only time canMove is disabled is when we deactivate all player control,
         // so a movement check here does the job.
-        if (!movement.canMove) return;
-        if (PauseMenu.IsPaused) return;
+        if (!movement.canMove || PauseMenu.IsPaused) return;
+
+        bool holdingDown = moveAction.action.ReadValue<Vector2>().y < -0.5f;
+        if (holdingDown) return;
 
         // if you shoot and it hasn't been too soon
         // you must use Time.time, Time.deltaTime is broken

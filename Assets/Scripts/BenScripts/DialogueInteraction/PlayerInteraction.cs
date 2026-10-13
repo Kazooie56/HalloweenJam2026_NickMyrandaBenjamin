@@ -12,13 +12,11 @@ public class PlayerInteraction : MonoBehaviour
     private IInteractable target;
     private InteractPrompt currentPrompt;
 
-    private UIManager uiManager;
-    private DialogueManager dialogueManager; // maybe remove idk
+    private DialogueManager dialogueManager;
 
     private void Start()
     {
-        uiManager = ServiceHub.Instance.UIManager;
-        dialogueManager = ServiceHub.Instance.DialogueManager; // maybe remove
+        dialogueManager = ServiceHub.Instance.DialogueManager;
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -58,7 +56,7 @@ public class PlayerInteraction : MonoBehaviour
     }
     private void Update()
     {
-        // Pausing the game will pause the text?
+        // Pausing the game will pause the text
         if (PauseMenu.IsPaused)
         {
             return;

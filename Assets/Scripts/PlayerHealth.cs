@@ -46,6 +46,7 @@ public class PlayerHealth : MonoBehaviour
     // This is how the screen fades to black
     private IEnumerator Fade(float beginningOpacity, float endOpacity)
     {
+        // store the current color and start a timer
         Color color = fadeImage.color;
         float timer = 0f;
 
@@ -57,7 +58,9 @@ public class PlayerHealth : MonoBehaviour
             yield return null;
         }
 
+        // color.a means alpha, set the alpha of the color to match the endOpacity which is always 1
         color.a = endOpacity;
+        // then finally assign it to the fadeImage
         fadeImage.color = color;
     }
 

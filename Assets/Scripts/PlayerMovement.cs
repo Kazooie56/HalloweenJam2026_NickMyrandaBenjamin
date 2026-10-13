@@ -25,6 +25,7 @@ public class PlayerMovement : MonoBehaviour
     private bool jumpRequested;
 
     [SerializeField] private Transform visual;
+    [SerializeField] private Animator animator;
 
     private bool isGrounded;
     private float oldYPosition;
@@ -63,11 +64,17 @@ public class PlayerMovement : MonoBehaviour
         if (!canMove || knockbackTimer > 0f)
         {
             moveInput = 0f;
+            animator.SetFloat("Speed", 0f);
             return;
         }
 
         // .x means only the horizontal movement matters
         moveInput = moveAction.action.ReadValue<Vector2>().x;
+
+        // Speed in the animator is a float that makes the player do their walking animation
+        // only if it's greater than 1.
+        // Mathf.Abs lets you do that with the movement that returns negative values too
+        animator.SetFloat("Speed", Mathf.Abs(moveInput));
 
         if (moveInput != 0f)
         {

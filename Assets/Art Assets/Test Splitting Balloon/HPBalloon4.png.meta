@@ -1,0 +1,1196 @@
+fileFormatVersion: 2
+guid: bb6fb7bf9efe64246ba7bb9f411f9834
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4327824650559678064
+    second: HPBalloon4_0
+  - first:
+      213: 6460599557623538413
+    second: HPBalloon4_1
+  - first:
+      213: 5801700467336272723
+    second: HPBalloon4_2
+  - first:
+      213: -7468773281983974081
+    second: HPBalloon4_3
+  - first:
+      213: -9220950965367157213
+    second: HPBalloon4_4
+  - first:
+      213: -6838495623767813323
+    second: HPBalloon4_5
+  - first:
+      213: -1307706417477930300
+    second: HPBalloon4_6
+  - first:
+      213: 1374541992595350310
+    second: HPBalloon4_7
+  - first:
+      213: 8895632143479918017
+    second: HPBalloon4_8
+  - first:
+      213: 7406529886782574176
+    second: HPBalloon4_9
+  - first:
+      213: 6271533315840446520
+    second: HPBalloon4_10
+  - first:
+      213: 4264234656765414712
+    second: HPBalloon4_11
+  - first:
+      213: -8434516332692266353
+    second: HPBalloon4_12
+  - first:
+      213: 3344798652736351557
+    second: HPBalloon4_13
+  - first:
+      213: -8533275549364997540
+    second: HPBalloon4_14
+  - first:
+      213: 3832387861436922117
+    second: HPBalloon4_15
+  - first:
+      213: 2751071601670228622
+    second: HPBalloon4_16
+  - first:
+      213: 7965707989490889433
+    second: HPBalloon4_17
+  - first:
+      213: 9174621809511583675
+    second: HPBalloon4_18
+  - first:
+      213: -3126813845595123278
+    second: HPBalloon4_19
+  - first:
+      213: 8732901574857168283
+    second: HPBalloon4_20
+  - first:
+      213: 7513117341428862608
+    second: HPBalloon4_21
+  - first:
+      213: 8176451618852929370
+    second: HPBalloon4_22
+  - first:
+      213: 910366760092298533
+    second: HPBalloon4_23
+  - first:
+      213: -8148846542828178212
+    second: HPBalloon4_24
+  - first:
+      213: 3639348603008813287
+    second: HPBalloon4_25
+  - first:
+      213: 2148345593525433716
+    second: HPBalloon4_26
+  - first:
+      213: 891809301459480127
+    second: HPBalloon4_27
+  - first:
+      213: 3694803488205254642
+    second: HPBalloon4_28
+  - first:
+      213: 2479946967511338660
+    second: HPBalloon4_29
+  - first:
+      213: -3392799438861230770
+    second: HPBalloon4_30
+  - first:
+      213: -2861604176025892606
+    second: HPBalloon4_31
+  - first:
+      213: 5663047149155006232
+    second: HPBalloon4_32
+  - first:
+      213: 8242534625925687785
+    second: HPBalloon4_33
+  - first:
+      213: -2045141570288522705
+    second: HPBalloon4_34
+  - first:
+      213: 861963655076977175
+    second: HPBalloon4_35
+  - first:
+      213: -437228220502462842
+    second: HPBalloon4_36
+  - first:
+      213: 5410583766563057842
+    second: HPBalloon4_37
+  - first:
+      213: -4226665766879227039
+    second: HPBalloon4_38
+  - first:
+      213: 4102793421333104737
+    second: HPBalloon4_39
+  - first:
+      213: 5730303328176319701
+    second: HPBalloon4_40
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HPBalloon4_0
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 759
+        width: 206
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 099163df86a70f3c0800000000000000
+      internalID: -4327824650559678064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HPBalloon4_1
+      rect:
+        serializedVersion: 2
+        x: 3303
+        y: 975
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de262346119a8a950800000000000000
+      internalID: 6460599557623538413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HPBalloon4_2
+      rect:
+        serializedVersion: 2
+        x: 1949
+        y: 835
+        width: 88
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35bdbc816d7c38050800000000000000
+      internalID: 5801700467336272723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HPBalloon4_3
+      rect:
+        serializedVersion: 2
+        x: 2496
+        y: 606
+        width: 236
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f35ba637546995890800000000000000
+      internalID: -7468773281983974081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HPBalloon4_4
+      rect:
+        serializedVersion: 2
+        x: 3262
+        y: 771
+        width: 188
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32ecef1a3f9980080800000000000000
+      internalID: -9220950965367157213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HPBalloon4_5
+      rect:
+        serializedVersion: 2
+        x: 2493
+        y: 761
+        width: 12
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 533914b4678c811a0800000000000000
+      internalID: -6838495623767813323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HPBalloon4_6
+      rect:
+        serializedVersion: 2
+        x: 3340
+        y: 796
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c2babb11f71adde0800000000000000
+      internalID: -1307706417477930300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HPBalloon4_7
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 484
+        width: 147
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 623e08dd8aa531310800000000000000
+      internalID: 1374541992595350310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HPBalloon4_8
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 652
+        width: 32
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cdcaacad42a37b70800000000000000
+      internalID: 8895632143479918017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HPBalloon4_9
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 650
+        width: 45
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06e4df7c0b749c660800000000000000
+      internalID: 7406529886782574176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HPBalloon4_10
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 737
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83092bf9256f80750800000000000000
+      internalID: 6271533315840446520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HPBalloon4_11
+      rect:
+        serializedVersion: 2
+        x: 1662
+        y: 735
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83d8963d3da9d2b30800000000000000
+      internalID: 4264234656765414712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HPBalloon4_12
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 676
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f82a5a9551492fa80800000000000000
+      internalID: -8434516332692266353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HPBalloon4_13
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 674
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54d2e8537ac1b6e20800000000000000
+      internalID: 3344798652736351557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HPBalloon4_14
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 498
+        width: 144
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c52b29d5917b39980800000000000000
+      internalID: -8533275549364997540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HPBalloon4_15
+      rect:
+        serializedVersion: 2
+        x: 3071
+        y: 298
+        width: 173
+        height: 396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 509777284706f2530800000000000000
+      internalID: 3832387861436922117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HPBalloon4_16
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 630
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8a0831cb05cd2620800000000000000
+      internalID: 2751071601670228622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HPBalloon4_17
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 628
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d2781a5631eb8e60800000000000000
+      internalID: 7965707989490889433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HPBalloon4_18
+      rect:
+        serializedVersion: 2
+        x: 2115
+        y: 357
+        width: 187
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbf4d703dedc25f70800000000000000
+      internalID: 9174621809511583675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HPBalloon4_19
+      rect:
+        serializedVersion: 2
+        x: 2228
+        y: 613
+        width: 43
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b1978ebf535b94d0800000000000000
+      internalID: -3126813845595123278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HPBalloon4_20
+      rect:
+        serializedVersion: 2
+        x: 4168
+        y: 643
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b959fc3a6bf713970800000000000000
+      internalID: 8732901574857168283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HPBalloon4_21
+      rect:
+        serializedVersion: 2
+        x: 4168
+        y: 573
+        width: 14
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09ec1b37a64f34860800000000000000
+      internalID: 7513117341428862608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HPBalloon4_22
+      rect:
+        serializedVersion: 2
+        x: 2779
+        y: 474
+        width: 83
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5f75e83d67987170800000000000000
+      internalID: 8176451618852929370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HPBalloon4_23
+      rect:
+        serializedVersion: 2
+        x: 3498
+        y: 431
+        width: 323
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52def96beb542ac00800000000000000
+      internalID: 910366760092298533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HPBalloon4_24
+      rect:
+        serializedVersion: 2
+        x: 3824
+        y: 549
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd47e856e3b79ee80800000000000000
+      internalID: -8148846542828178212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HPBalloon4_25
+      rect:
+        serializedVersion: 2
+        x: 3842
+        y: 538
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e88728b540918230800000000000000
+      internalID: 3639348603008813287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HPBalloon4_26
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 106
+        width: 307
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 475fbd45fe470dd10800000000000000
+      internalID: 2148345593525433716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HPBalloon4_27
+      rect:
+        serializedVersion: 2
+        x: 1675
+        y: 445
+        width: 239
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3ea1eca5d7506c00800000000000000
+      internalID: 891809301459480127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HPBalloon4_28
+      rect:
+        serializedVersion: 2
+        x: 2774
+        y: 476
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ff29555234964330800000000000000
+      internalID: 3694803488205254642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HPBalloon4_29
+      rect:
+        serializedVersion: 2
+        x: 3644
+        y: 420
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ae025ca0aa8a6220800000000000000
+      internalID: 2479946967511338660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HPBalloon4_30
+      rect:
+        serializedVersion: 2
+        x: 3657
+        y: 421
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4d188cd2ea5ae0d0800000000000000
+      internalID: -3392799438861230770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HPBalloon4_31
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 365
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 209c330d92a8948d0800000000000000
+      internalID: -2861604176025892606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HPBalloon4_32
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 260
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8173ca7c06f279e40800000000000000
+      internalID: 5663047149155006232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HPBalloon4_33
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 258
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e9682b429d536270800000000000000
+      internalID: 8242534625925687785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HPBalloon4_34
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 236
+        width: 79
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2a6193d3923e93e0800000000000000
+      internalID: -2045141570288522705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HPBalloon4_35
+      rect:
+        serializedVersion: 2
+        x: 3789
+        y: 126
+        width: 291
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71a192e906f46fb00800000000000000
+      internalID: 861963655076977175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HPBalloon4_36
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 46
+        width: 2397
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68eac2fff37aee9f0800000000000000
+      internalID: -437228220502462842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HPBalloon4_37
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 115
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b07c79e441461b40800000000000000
+      internalID: 5410583766563057842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HPBalloon4_38
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 25
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1631cdcf0edd755c0800000000000000
+      internalID: -4226665766879227039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HPBalloon4_39
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 1
+        width: 15
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1688e5111ec00f830800000000000000
+      internalID: 4102793421333104737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HPBalloon4_40
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 1
+        width: 63
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dc203b3480268f40800000000000000
+      internalID: 5730303328176319701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      HPBalloon4_0: -4327824650559678064
+      HPBalloon4_1: 6460599557623538413
+      HPBalloon4_10: 6271533315840446520
+      HPBalloon4_11: 4264234656765414712
+      HPBalloon4_12: -8434516332692266353
+      HPBalloon4_13: 3344798652736351557
+      HPBalloon4_14: -8533275549364997540
+      HPBalloon4_15: 3832387861436922117
+      HPBalloon4_16: 2751071601670228622
+      HPBalloon4_17: 7965707989490889433
+      HPBalloon4_18: 9174621809511583675
+      HPBalloon4_19: -3126813845595123278
+      HPBalloon4_2: 5801700467336272723
+      HPBalloon4_20: 8732901574857168283
+      HPBalloon4_21: 7513117341428862608
+      HPBalloon4_22: 8176451618852929370
+      HPBalloon4_23: 910366760092298533
+      HPBalloon4_24: -8148846542828178212
+      HPBalloon4_25: 3639348603008813287
+      HPBalloon4_26: 2148345593525433716
+      HPBalloon4_27: 891809301459480127
+      HPBalloon4_28: 3694803488205254642
+      HPBalloon4_29: 2479946967511338660
+      HPBalloon4_3: -7468773281983974081
+      HPBalloon4_30: -3392799438861230770
+      HPBalloon4_31: -2861604176025892606
+      HPBalloon4_32: 5663047149155006232
+      HPBalloon4_33: 8242534625925687785
+      HPBalloon4_34: -2045141570288522705
+      HPBalloon4_35: 861963655076977175
+      HPBalloon4_36: -437228220502462842
+      HPBalloon4_37: 5410583766563057842
+      HPBalloon4_38: -4226665766879227039
+      HPBalloon4_39: 4102793421333104737
+      HPBalloon4_4: -9220950965367157213
+      HPBalloon4_40: 5730303328176319701
+      HPBalloon4_5: -6838495623767813323
+      HPBalloon4_6: -1307706417477930300
+      HPBalloon4_7: 1374541992595350310
+      HPBalloon4_8: 8895632143479918017
+      HPBalloon4_9: 7406529886782574176
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

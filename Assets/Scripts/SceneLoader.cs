@@ -9,6 +9,7 @@ public class SceneLoader
         Lobby,
         Level1,
         Level2,
+        Credits
     }
 
     public static void Load(GameScene scene)
