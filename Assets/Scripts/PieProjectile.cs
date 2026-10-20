@@ -5,12 +5,19 @@ public class PieProjectile : MonoBehaviour
     [SerializeField] private float speed = 12f;
     [SerializeField] private int damage = 1;
     [SerializeField] private float timeBeforeDespawn = 0.1f;
+    [SerializeField] private AudioClip thrownSound;
+    [SerializeField] private AudioClip splatSound;
 
     private Rigidbody2D rigidBody;
 
     private void Awake()
     {
         rigidBody = GetComponent<Rigidbody2D>();
+    }
+
+    private void Start()
+    {
+        AudioManager.Instance.PlaySFX(thrownSound);
     }
 
     public void Launch(Vector2 direction)
@@ -46,6 +53,7 @@ public class PieProjectile : MonoBehaviour
         }
 
         // if it hits anything other than the player, it's destroyed.
+        AudioManager.Instance.PlaySFX(splatSound);
         Destroy(gameObject);
     }
 }

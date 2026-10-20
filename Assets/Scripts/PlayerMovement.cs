@@ -14,11 +14,14 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float knockbackY = 8f;
     [SerializeField] private float knockbackDuration = 0.75f;
 
+    [SerializeField] private AudioClip jumpSound;
+
     // rigidBody is used for movement and moveInput is the value
     private Rigidbody2D rigidBody;
     private float moveInput;
 
     // A value we use to know which direction the player and projectiles should face.
+    // also it's public so PlayerShooting.cs can know which way to spawn the pies
     public float facingDirection = 1f;
 
     private float knockbackTimer;
@@ -36,7 +39,6 @@ public class PlayerMovement : MonoBehaviour
     private void Awake()
     {
         rigidBody = GetComponent<Rigidbody2D>();
-
         oldYPosition = transform.position.y;
 
         canMove = true;
@@ -117,6 +119,7 @@ public class PlayerMovement : MonoBehaviour
         {
             // replace our rigidbody's velocity vertically and add our jump velocity instead
             rigidBody.linearVelocity = new Vector2(rigidBody.linearVelocity.x, jumpVelocity);
+            AudioManager.Instance.PlaySFX(jumpSound);
 
             // reset everything, keep this within the if statement to immediately prevent multiple jumps
             isGrounded = false;

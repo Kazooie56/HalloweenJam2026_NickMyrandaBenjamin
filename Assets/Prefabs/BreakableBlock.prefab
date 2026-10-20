@@ -83,8 +83,8 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 2
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -747972870123368917, guid: 1324a275cbe4c3248b5d240675c7491d, type: 3}
-  m_Color: {r: 0.3018868, g: 0.1495194, b: 0.1495194, a: 1}
+  m_Sprite: {fileID: -7960818194000818557, guid: 2d2788dbefc3f80488879e66c865ea2c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -151,3 +151,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cde99809b9398b04286c9be9bf8e0fc2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BreakableBlock
+  destroySound: {fileID: 8300000, guid: 5c1ed2a728c3a3742a6e3fc29b190638, type: 3}

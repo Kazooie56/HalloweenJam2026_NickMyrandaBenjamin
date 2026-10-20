@@ -3,12 +3,9 @@ using UnityEngine;
 
 public class Credits : MonoBehaviour
 {
-    [Header("Credits")]
-    [SerializeField] private RectTransform creditsText;
-    [SerializeField] private float endY = 20f;     
-    [SerializeField] private float scrollSpeed = 1f;
-
-    [Header("End Panel")]
+    [SerializeField] private RectTransform creditsText; // the text that goes upwards
+    [SerializeField] private float endY = 1180f;
+    [SerializeField] private float scrollSpeed = 100f;
     [SerializeField] private GameObject congratulationsScreen;
     [SerializeField] private float fadeDuration = 1.5f;
 
@@ -24,9 +21,9 @@ public class Credits : MonoBehaviour
 
     private IEnumerator PlayCredits()
     {
-        while (creditsText.position.y < endY)
+        while (creditsText.anchoredPosition.y < endY)
         {
-            creditsText.position += Vector3.up * scrollSpeed * Time.deltaTime;
+            creditsText.anchoredPosition += Vector2.up * scrollSpeed * Time.deltaTime;
             yield return null;
         }
 

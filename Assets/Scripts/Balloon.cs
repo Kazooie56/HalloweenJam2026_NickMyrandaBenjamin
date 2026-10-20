@@ -8,6 +8,8 @@ public class Balloon : MonoBehaviour
     [SerializeField] private float timeTillBlowup = 1f;
     [SerializeField] private int damage = 2;
     [SerializeField] private float explosionDuration = 0.1f;
+    [SerializeField] private AudioClip inflateSound;
+    [SerializeField] private AudioClip popSound;
 
     [SerializeField] private CircleCollider2D blastCollider;
     private void Awake()
@@ -17,6 +19,7 @@ public class Balloon : MonoBehaviour
     private void Start()
     {
         StartCoroutine(GrowAndPop());
+        AudioManager.Instance.PlaySFX(inflateSound);
     }
 
     private IEnumerator GrowAndPop()
@@ -43,6 +46,7 @@ public class Balloon : MonoBehaviour
     private void Pop()
     {
         blastCollider.enabled = true;
+        AudioManager.Instance.PlaySFX(popSound);
         Destroy(gameObject, explosionDuration);
     }
 

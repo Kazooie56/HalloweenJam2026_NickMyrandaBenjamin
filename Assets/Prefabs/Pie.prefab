@@ -214,3 +214,5 @@ MonoBehaviour:
   speed: 12
   damage: 1
   timeBeforeDespawn: 1
+  thrownSound: {fileID: 8300000, guid: ae9a7b8f9b2649f45987587f28e5382b, type: 3}
+  splatSound: {fileID: 8300000, guid: 5928d275a0304b44ea33998fd9bde3b6, type: 3}

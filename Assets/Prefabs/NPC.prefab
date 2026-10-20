@@ -308,6 +308,7 @@ MonoBehaviour:
   sentences:
   - Add Dialogue Here...
   - Press + to add more!
+  unlock: 0
 --- !u!95 &8112176059683669690
 Animator:
   serializedVersion: 7
@@ -374,5 +375,5 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 2, y: 2}
+  m_Size: {x: 3, y: 2}
   m_EdgeRadius: 0

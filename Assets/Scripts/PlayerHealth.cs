@@ -4,7 +4,10 @@ using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
 {
-    [SerializeField] private float invincibilityTime = 1f;
+    [SerializeField] private AudioClip hurtSound;
+    [SerializeField] private AudioClip dieSound;
+
+    [SerializeField] private float invincibilityTime = 1f; // used for taking no damage and how long the player is transparent
     private int maxHealth = 3;
 
     [Header("Respawn")]
@@ -18,12 +21,32 @@ public class PlayerHealth : MonoBehaviour
     private bool isDead;
     private PlayerMovement movement;
 
+    private SpriteRenderer spriteRenderer;
+    private Color originalColor;
+    private float flashTimer;
+
     private void Awake()
     {
         currentHealth = maxHealth;
         movement = GetComponent<PlayerMovement>();
         body = GetComponent<Rigidbody2D>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        originalColor = spriteRenderer.color;
     }
+
+    // taken directly from Enemy.cs, except instead of red, it's transparency we're fixing
+    private void Update()
+    {
+        if (flashTimer > 0f)
+        {
+            flashTimer -= Time.deltaTime;
+            if (flashTimer <= 0f)
+            {
+                spriteRenderer.color = originalColor;
+            }
+        }
+    }
+
     public void TakeDamage(int amount, Vector2 hitSourcePosition)
     {
         // dont take damage while invincible or dead
@@ -33,13 +56,24 @@ public class PlayerHealth : MonoBehaviour
         }
 
         currentHealth -= amount;
+        
         invincibilityFramesDuration = Time.time + invincibilityTime;
+
+        // transparency logic
+        Color transparent = originalColor;
+        transparent.a = 0.5f;               // half transparency
+        spriteRenderer.color = transparent;
+        flashTimer = invincibilityTime;
 
         movement.GetKnockedBack(hitSourcePosition);
 
         if (currentHealth <= 0)
         {
             StartCoroutine(Respawn());
+        }
+        else
+        {
+            AudioManager.Instance.PlaySFX(hurtSound);
         }
     }
 
@@ -80,6 +114,7 @@ public class PlayerHealth : MonoBehaviour
     {
         isDead = true;
         movement.canMove = false;
+        AudioManager.Instance.PlaySFX(dieSound);
 
         yield return Fade(0f, 1f);   // 0 - 1 means invisible to completely black
 
@@ -94,5 +129,11 @@ public class PlayerHealth : MonoBehaviour
         invincibilityFramesDuration = Time.time + invincibilityTime;
         movement.canMove = true;
         isDead = false;
+
+        // copy and pasted transparency logic, probably should make this a method
+        Color transparent = originalColor;
+        transparent.a = 0.5f;
+        spriteRenderer.color = transparent;
+        flashTimer = invincibilityTime;
     }
 }

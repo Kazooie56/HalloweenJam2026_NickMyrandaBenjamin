@@ -7,8 +7,8 @@ public class Door : MonoBehaviour, IInteractable
     [SerializeField] private bool isDisabled;
 
     [Header("Progress")]
-    [SerializeField] private ProgressUnlocked unlockedByFlag = ProgressUnlocked.None; // this is for unlocking level 1
-    [SerializeField] private ProgressUnlocked flagToSetOnEnter = ProgressUnlocked.None; // this is for swapping the clown
+    [SerializeField] private ProgressUnlocked unlockRequirement = ProgressUnlocked.None; // this is for unlocking level 1
+    [SerializeField] private ProgressUnlocked unlockOnEnter = ProgressUnlocked.None; // this is for swapping the clown
 
     [SerializeField] private SpriteRenderer spriteRenderer;
     [SerializeField] private InteractPrompt prompt;
@@ -40,9 +40,10 @@ public class Door : MonoBehaviour, IInteractable
 
     private void Refresh()
     {
-        if (unlockedByFlag != ProgressUnlocked.None)
+        // if the door needs a specific unlocked requirement, then it's locked until you get that requirement
+        if (unlockRequirement != ProgressUnlocked.None)
         {
-            isDisabled = !ProgressManager.Get(unlockedByFlag);
+            isDisabled = !ProgressManager.Get(unlockRequirement);
         }
         UpdateDoor();
     }
@@ -54,7 +55,7 @@ public class Door : MonoBehaviour, IInteractable
             return;
         }
 
-        ProgressManager.Set(flagToSetOnEnter);
+        ProgressManager.Set(unlockOnEnter);
         SceneLoader.Load(destination);
     }
 

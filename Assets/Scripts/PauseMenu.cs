@@ -63,11 +63,4 @@ public class PauseMenu : MonoBehaviour
         Resume();
         SceneLoader.Load(SceneLoader.GameScene.Lobby);
     }
-
-    // this actually isn't on any pause screen but I put it in the credits and main menu
-    public void QuitGame()
-    {
-        Time.timeScale = 1f;
-        Application.Quit();
-    }
 }

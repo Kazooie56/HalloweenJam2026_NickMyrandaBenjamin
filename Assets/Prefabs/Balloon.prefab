@@ -81,7 +81,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 6
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 46f3462c21ee9194b95dcd0b16389b39, type: 3}
+  m_Sprite: {fileID: -6111260914258128732, guid: 164db8170e9f2c140952d32151f3b4ea, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -140,8 +140,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Balloon
   maxScale: 2
   timeTillBlowup: 1
-  damage: 3
+  damage: 2
   explosionDuration: 0.1
+  inflateSound: {fileID: 8300000, guid: 0760012ef91ca134a8cf81fb68174e73, type: 3}
+  popSound: {fileID: 8300000, guid: de039d1bc3e43b8478577e320db8d53b, type: 3}
   blastCollider: {fileID: 5947506467824763664}
 --- !u!58 &5947506467824763664
 CircleCollider2D:
@@ -178,7 +180,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 2
+  m_Radius: 1.5
 --- !u!50 &3938479778081497995
 Rigidbody2D:
   serializedVersion: 5

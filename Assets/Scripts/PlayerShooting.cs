@@ -15,7 +15,6 @@ public class PlayerShooting : MonoBehaviour
     {
         movement = GetComponent<PlayerMovement>();
     }
-
     private void OnEnable()
     {
         attackAction.action.Enable();
@@ -46,7 +45,6 @@ public class PlayerShooting : MonoBehaviour
             Shoot();
         }
     }
-
     private void Shoot()
     {
         // either moves in the negative or positive x direction based on facingDirection
